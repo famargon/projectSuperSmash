@@ -7,6 +7,7 @@
 package nanoplatformer.graphics.output.java2D;
 
 import java.awt.event.*;
+import nanoplatformer.input.keyboardKeyListener;
 
 /**
  *
@@ -16,7 +17,7 @@ public class AcceleratedFrame extends java.awt.Frame {
      
     private AcceleratedCanvas canvas;
 
-    public AcceleratedFrame(int width, int height) {
+    public AcceleratedFrame(int width, int height,keyboardKeyListener teclado) {
 
         this.setSize(width, height);
         this.setIgnoreRepaint(true);
@@ -26,8 +27,12 @@ public class AcceleratedFrame extends java.awt.Frame {
         initComponents(width, height);
 
         this.setVisible(true);
-        this.canvas.init(true);        
+        this.canvas.init(true);   
+        addKeyListener(teclado);
+        requestFocus();
     }
+
+    
 
     private void initComponents(int width, int height) {
 

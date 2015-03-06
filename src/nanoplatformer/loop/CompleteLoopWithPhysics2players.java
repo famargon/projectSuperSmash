@@ -5,6 +5,7 @@
  */
 package nanoplatformer.loop;
 
+import static com.sun.java.accessibility.util.AWTEventMonitor.addKeyListener;
 import java.awt.Color;
 import java.awt.Rectangle;
 import java.util.ArrayList;
@@ -36,14 +37,15 @@ public class CompleteLoopWithPhysics2players extends BaseGameLoop {
         this.character1 = character1;
         this.character2 = character2;
         this.renderer = renderer;
+        
     }
 
     @Override
     protected void performLoopOperations(long previousLoopTime_ms, long currentLoopTime_ms) {
 
-        teclado.update();
-        boolean[] keys1=new boolean[4];
-        boolean[] keys2=new boolean[4];
+        
+        boolean[] keys1;
+        boolean[] keys2;
         keys1=teclado.getValues(1);
         keys2=teclado.getValues(2);
       

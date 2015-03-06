@@ -37,10 +37,11 @@ public class dosPersonajes {
         addKeyListener(teclado);
         
         
+        
         Java2DGraphicsPool graphicsPool = new Java2DGraphicsPool();
         graphicsPool.loadFromCurrentDirectory();
 
-        IRenderer renderer = new Java2DRenderer(graphicsPool, new AcceleratedFrame(640, 480));
+        IRenderer renderer = new Java2DRenderer(graphicsPool, new AcceleratedFrame(640, 480,teclado));
         
         ILevelContainer levelHolder=new LevelLoader().loadLevel("basicLevel.txt", graphicsPool);
         
