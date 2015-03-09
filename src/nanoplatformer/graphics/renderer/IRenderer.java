@@ -24,5 +24,7 @@ public interface IRenderer {
     public void showBuffer();
     
     public Rectangle getRenderableArea();
+
+    public void drawMessage(String pulsa_cualquier_tecla_para_empezar);
     
 }

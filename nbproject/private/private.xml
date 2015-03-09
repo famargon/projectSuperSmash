@@ -3,19 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Fabian/UNIVERSIDAD-local/projectSuperSmash/src/nanoplatformer/input/IPollableInput.java</file>
-            <file>file:/C:/Users/Fabian/UNIVERSIDAD-local/projectSuperSmash/src/nanoplatformer/input/keyboardKeyListener.java</file>
-            <file>file:/C:/Users/Fabian/UNIVERSIDAD-local/projectSuperSmash/src/nanoplatformer/graphics/output/java2D/AcceleratedFrame.java</file>
-            <file>file:/C:/Users/Fabian/UNIVERSIDAD-local/projectSuperSmash/src/nanoplatformer/samples/J_SimpleGameLoop3.java</file>
-            <file>file:/C:/Users/Fabian/UNIVERSIDAD-local/projectSuperSmash/src/nanoplatformer/graphics/graphicspool/java2D/Java2DGraphicsPool.java</file>
-            <file>file:/C:/Users/Fabian/UNIVERSIDAD-local/projectSuperSmash/src/nanoplatformer/samples/dosPersonajes.java</file>
-            <file>file:/C:/Users/Fabian/UNIVERSIDAD-local/projectSuperSmash/src/nanoplatformer/graphics/renderer/java2D/Java2DRenderer.java</file>
-            <file>file:/C:/Users/Fabian/UNIVERSIDAD-local/projectSuperSmash/src/nanoplatformer/input/Keyboard.java</file>
-            <file>file:/C:/Users/Fabian/UNIVERSIDAD-local/projectSuperSmash/src/nanoplatformer/loop/H_CompleteLoopWithoutPhysics.java</file>
-            <file>file:/C:/Users/Fabian/UNIVERSIDAD-local/projectSuperSmash/src/nanoplatformer/samples/H_SimpleGameLoop1.java</file>
-            <file>file:/C:/Users/Fabian/UNIVERSIDAD-local/projectSuperSmash/src/nanoplatformer/loop/CompleteLoopWithPhysics2players.java</file>
-            <file>file:/C:/Users/Fabian/UNIVERSIDAD-local/projectSuperSmash/src/nanoplatformer/loop/BaseGameLoop.java</file>
-            <file>file:/C:/Users/Fabian/UNIVERSIDAD-local/projectSuperSmash/src/nanoplatformer/graphics/output/java2D/AcceleratedCanvas.java</file>
+            <file>file:/C:/Users/Fabian/UNIVERSIDAD-local/projectSuperSmash/src/projectSuperSmash/graphics/renderer/java2D/Java2DRenderer.java</file>
+            <file>file:/C:/Users/Fabian/UNIVERSIDAD-local/projectSuperSmash/src/projectSuperSmash/loop/BaseGameLoop.java</file>
+            <file>file:/C:/Users/Fabian/UNIVERSIDAD-local/projectSuperSmash/src/projectSuperSmash/samples/dosPersonajes.java</file>
+            <file>file:/C:/Users/Fabian/UNIVERSIDAD-local/projectSuperSmash/src/projectSuperSmash/loop/CompleteLoopWithPhysics2players.java</file>
+            <file>file:/C:/Users/Fabian/UNIVERSIDAD-local/projectSuperSmash/src/projectSuperSmash/model/character/MainCharacterWithPhysics2playersedition.java</file>
         </group>
     </open-files>
 </project-private>

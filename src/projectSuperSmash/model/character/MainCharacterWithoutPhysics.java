@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package nanoplatformer.model;
+package projectSuperSmash.model.character;
 
 import projectSuperSmash.graphics.ImageInfo;
 
@@ -12,17 +12,21 @@ import projectSuperSmash.graphics.ImageInfo;
  *
  * @author Nestor
  */
-public class LevelComponent {
+public class MainCharacterWithoutPhysics  {
+    
+    
+    private static float PIXELS_PER_SECOND=64;
     
     private float positionX;
     private float positionY;
     private ImageInfo graphicInfo;
 
-    public LevelComponent(int positionX, int positionY, ImageInfo graphicResource) {
+    public MainCharacterWithoutPhysics(int positionX, int positionY, ImageInfo graphicInfo) {
         this.positionX = positionX;
         this.positionY = positionY;
-        this.graphicInfo = graphicResource;
+        this.graphicInfo = graphicInfo;
     }
+    
 
     public float getPositionX() {
         return positionX;
@@ -35,8 +39,17 @@ public class LevelComponent {
     public ImageInfo getImageInfo() {
         return graphicInfo;
     }
-    
-    
+
+    public void update(boolean[] keys,long timespan) {
+        
+        float pixelsToMove=  (timespan*PIXELS_PER_SECOND)*0.001f;
+                
+        if (keys[0]) positionY-=pixelsToMove;
+        if (keys[1]) positionY+=pixelsToMove;
+        if (keys[2]) positionX-=pixelsToMove;
+        if (keys[3]) positionX+=pixelsToMove;
+        
+    }
     
     
 }
